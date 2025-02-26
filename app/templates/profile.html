@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="top-container">
+  <div class="header">
+    <img src="{{ url_for('static', filename='profile_pic.jpeg') }}" alt="Profile Picture" class="profile-pic">
+    <h1>Tara Henry</h1>
+    <p>@tarahenry</p>
+    <p>Kingston, Jamaica</p>
+    <p>Joined {{date_joined}}</p>
+  </div>
+</div>
+<div class="bottom-container">
+  <div class="body">
+    <p class="bio">A young, aspiring Computer Systems Engineer, with a passion for dance, food and music.</p>
+    <div class="stats-container">
+      <div class="stats">
+        <span class="number">5</span>
+        <span class="label">Posts</span>
+      </div>
+      <div class="stats">
+          <span class="number">357</span>
+          <span class="label">Following</span>
+      </div>
+      <div class="stats">
+          <span class="number">454</span>
+          <span class="label">Followers</span>
+      </div>
+    </div>
+  </div>
+  <button class="follow-btn">Follow</button>
+</div>
+{% endblock %}

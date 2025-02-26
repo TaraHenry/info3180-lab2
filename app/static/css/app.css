@@ -1,3 +1,74 @@
 body {
     padding-top: 5rem;
 }
+
+.top-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fbf3f5;
+    border-radius: 10px;
+}
+
+.bottom-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+/* Profile Picture */
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #555;
+}
+
+/* Bio */
+.bio {
+    font-style: italic;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Profile Stats */
+.stats-container {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px 0;
+}
+
+.stats {
+    text-align: center;
+    font-size: 16px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    display: block;
+}
+
+.label {
+    color: #888;
+    font-size: 14px;
+}
+
+/* Follow Button */
+.follow-btn {
+    background-color: #fd4ea0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.follow-btn:hover {
+    background-color: #ff107f;
+}
